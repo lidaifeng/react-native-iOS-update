@@ -15,7 +15,7 @@
  //then
  react-native link react-native-app-upgrade
 
-import {openAPPStore,checkUpdate} from 'react-native-app-upgrade'
+import {openAPPStore,checkUpdate} from 'react-native-iOS-update'
 
 if (Platform.OS === 'ios') {
     checkUpdate('appid','本地版本').then(data=>{
